@@ -1,0 +1,113 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat",sans-serif;
+}
+a {
+  text-decoration: none;
+  }
+header {
+  height: 70px;
+  width: 100%;
+  background-color: rgba(13, 44, 74,0.8);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+.logo {
+  width: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  float:left;
+}
+
+.menu{
+  float: right;
+  line-height: 70px;
+}
+.menu a{
+  color: #fff;
+  text-decoration: none;
+  padding: 0 10px;
+  transition: 0.4s;
+
+}
+.show-menu-icon,.hide-menu-icon{
+  transition: 0.4s;
+  font-size: 30px;
+  cursor: pointer;
+  display: none;
+  color: white;
+  padding: 21px 0;
+}
+.show-menu-icon{
+  float: right;
+}
+.show-menu-icon i{
+  line-height: 30px;
+  margin-right: 40px;
+}
+.menu a:hover,
+.show-menu-icon:hover,
+.hide-menu-icon:hover{
+  color: #3498db;
+}
+
+#chk{
+  position: absolute;
+  visibility: hidden;
+  z-index: -1111;
+}
+
+
+/* Start of Page-Two */
+.page-two {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+}
+
+.heading h1 {
+  font-weight: normal;
+}
+
+.tips {
+  opacity: 0.6;
+  float: left;
+  width: 25%;
+}
+
+.tips:hover {
+  opacity: 1;
+}
+
+.tips-icon {
+  position: relative;
+  width: 100%;
+  float: left;
+}
+
+.tips-icon img {
+  width: 200px;
+  height: 200px;
+  float: left;
+}
+
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin: 25px 0px;
+  font-size: 20px;
+  color: #b3aeb5;
+  float: left;
+}
+
+/* End of Page-Two */
