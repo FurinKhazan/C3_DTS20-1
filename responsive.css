@@ -1,4 +1,3 @@
-
 /* Untuk tablet */
 @media all and (max-width: 1000px) {
   .tips-icon img {
@@ -8,7 +7,7 @@
     color: #fff;
   }
 
-  .page-one h1 {
+ .page-one h1 {
     font-size: 27px;
 }
 
@@ -21,19 +20,24 @@
     top: 60%;
     left: 50%;
   }
+  .tips {
+    width: 30%;
+    margin-bottom: 30px;
+  }
 }
 
 /* untuk Smartphone */
-
 @media (max-width: 670px) {
-  .show-menu-icon,.hide-menu-icon{
+  .show-menu-icon,
+  .hide-menu-icon {
     display: block;
   }
-  .menu{
+
+  .menu {
     position: fixed;
     width: 100%;
     height: 100vh;
-    background: rgba(1,1,0,0.9);
+    background: rgba(1, 1, 0, 0.9);
     right: -100%;
     top: 0;
     text-align: center;
@@ -41,16 +45,19 @@
     line-height: normal;
     transition: 0.7s;
   }
-  .menu a{
+
+  .menu a {
     display: block;
     padding: 20px;
   }
-  .hide-menu-icon{
+
+  .hide-menu-icon {
     position: absolute;
     top: 40px;
     right: 40px;
   }
-  #chk:checked ~ .menu{
+
+  #chk:checked ~ .menu {
     right: 0;
   }
 
@@ -68,5 +75,13 @@
     left: 50%;
     padding: 5px 10px;
     position: absolute;
+  }
+  .tips {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+  footer {
+    text-align: center;
   }
 }
