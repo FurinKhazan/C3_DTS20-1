@@ -1,15 +1,12 @@
 /* Untuk tablet */
 @media all and (max-width: 1000px) {
-  .tips-icon img {
-    width: 50%
-  }
   .main-page {
     color: #fff;
   }
 
- .page-one h1 {
+  .page-one h1 {
     font-size: 27px;
-}
+  }
 
   .page-one p {
     font-size: 12px;
@@ -20,9 +17,23 @@
     top: 60%;
     left: 50%;
   }
+
+  .heading {
+    padding-top: 100%;
+  }
+
   .tips {
     width: 30%;
     margin-bottom: 30px;
+  }
+
+  .gjl {
+    width: 40%;
+    margin: 0 auto;
+  }
+
+  footer {
+    text-align: center;
   }
 }
 
@@ -31,6 +42,11 @@
   .show-menu-icon,
   .hide-menu-icon {
     display: block;
+  }
+
+  .gjl {
+    margin-left: 20%;
+    width: 100%;
   }
 
   .menu {
@@ -76,6 +92,7 @@
     padding: 5px 10px;
     position: absolute;
   }
+
   .tips {
     width: 50%;
     margin-bottom: 50px;
