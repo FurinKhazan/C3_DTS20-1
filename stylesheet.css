@@ -1,11 +1,8 @@
-*{
-  margin: 0;
-  padding: 0;
-  font-family: "montserrat",sans-serif;
-}
+
 a {
   text-decoration: none;
   }
+  
 header {
   height: 70px;
   width: 100%;
@@ -111,3 +108,17 @@ header {
 }
 
 /* End of Page-Two */
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.main-page {
+  padding: 180px 0 100px 0;
+  background-image: url('top3.png');
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
