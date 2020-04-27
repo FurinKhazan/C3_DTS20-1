@@ -19,7 +19,7 @@
   }
 
   .heading {
-    padding-top: 100%;
+    padding-top: 50%;
   }
 
   .tips {
@@ -28,17 +28,25 @@
   }
 
   .gjl {
-    width: 40%;
-    margin: 0 auto;
+    width: 33%;
   }
 
   footer {
     text-align: center;
   }
   .column {
-    width: 50%; 
-    display: contents;
-}
+    width: 60%;
+    margin-right: 30%;
+    margin-left: 20%;
+    display: block;
+  }
+  .main-page h2 {
+    font-size: 21px;
+    color: black;
+  }
+  .details p {
+    color: black
+  }
 }
 
 /* untuk Smartphone */
@@ -89,17 +97,22 @@
     font-size: 8px;
   }
 
+  .page-two {
+    background-size: cover;
+  }
+
   .page-one {
     transform: translate(-50%, -50%);
-    top: 60%;
+    top: 70%;
     left: 50%;
     padding: 5px 10px;
     position: absolute;
   }
 
   .tips {
-    width: 50%;
+    width: 100%;
     margin-bottom: 50px;
+    margin-left: 24%;
   }
 
   footer {
@@ -115,11 +128,21 @@
     font-size: 15px;
   }
 
-  .tips {
-    width: 100%;
+  .tips p {
+    margin-left: -10%;
   }
+  
   .column {
-    width: 100%;
+    width: 80%;
+    margin-right: 30%;
+    margin-left: 10%;
     display: block;
-}
+  }
+  .main-page h2 {
+    font-size: 21px;
+    color: black;
+  }
+  .details p {
+    color: black
+  }
 }

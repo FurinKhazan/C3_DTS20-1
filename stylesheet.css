@@ -6,7 +6,7 @@
   font-family: 'Open Sans', sans-serif;
   box-sizing: border-box;
 }
-*:before, *:after {
+*, *:before, *:after {
   box-sizing: inherit;
 }
 
@@ -168,6 +168,10 @@ header {
   float: left;
 }
 
+.gejala {
+  margin-left: 13%;
+}
+
 .gjl {
   opacity: 0.6;
   float: left;
@@ -249,8 +253,9 @@ footer {
 .column {
   float: left;
   width: 15%;
-  margin-right: 5%;
+  margin-right: 2%;
   margin-bottom: 16px;
+  margin-left: 2%;
   padding: 0 8px;
   display: block;
 }
@@ -266,15 +271,15 @@ footer {
   padding: 5px;
 }
 
-.container {
+.details {
   padding: 0 25px;
 }
 
-.container p {
+.details p {
   padding-bottom: 5px;
 }
 
-.container::after, .row::after {
+.details::after, .row::after {
   content: "";
   clear: both;
   display: table;
